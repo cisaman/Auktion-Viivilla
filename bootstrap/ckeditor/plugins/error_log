@@ -1,0 +1,2 @@
+[27-Feb-2015 09:09:10 UTC] PHP Warning:  move_uploaded_file(/data/home/rtcisinl/public_html/viivilla/upload_dir/down-icon.png): failed to open stream: No such file or directory in /data/home/rtcisinl/public_html/viivilla/bootstrap/ckeditor/plugins/imgupload.php on line 43
+[27-Feb-2015 09:09:10 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php9vMTF7' to '/data/home/rtcisinl/public_html/viivilla/upload_dir/down-icon.png' in /data/home/rtcisinl/public_html/viivilla/bootstrap/ckeditor/plugins/imgupload.php on line 43

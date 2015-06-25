@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 1920px) {
+ .left-adv {left: 190px;}
+.right-adv {right: 190px;margin: 0;left: initial;}
+}
+
+@media screen and (max-width: 1680px) { 
+.right-adv {left: initial;right: 70px;}
+.left-adv {left: 70px;}
+}
+
+
+@media screen and (max-width: 1600px) { 
+.right-adv {right: 30px;}
+.left-adv {left: 30px;}
+}
+
+@media screen and (max-width: 1440px) { 
+.right-adv {right: -50px;}
+.left-adv {left: -50px;}
+}
+
+
+@media screen and (max-width: 1366px) { 
+.right-adv {right: -85px;}
+.left-adv {left: -85px;}
+}
+
+@media screen and (max-width: 1280px) {
+    .right-adv {right: -125px;}
+    .left-adv {left: -125px;}
+    body{overflow-x:hidden;}
+}
+
+@media screen and (max-width: 460px) { 
+    .center-srch.form-group {width: 100% !important;}
+    .header-part .form-group {margin: 10px auto !important;}
+    .inner-blog p, .inner-blog p a {height: auto;}
+}
+
+@media screen and (max-width: 360px) { 
+    .center-srch.form-group {width: 100% !important;}
+    .header-part .form-group {margin: 10px auto !important;}
+    .inner-blog p, .inner-blog p a {height: auto;}
+}
+
+@media screen and (max-width: 320px) { 
+    .center-srch.form-group {width: 100% !important;}
+    .header-part .form-group {margin: 10px auto !important;}
+    .inner-blog p, .inner-blog p a {height: auto;}
+}
+
+@media screen and (max-width: 1024px) { 
+    .main-body {
+        background: #fff;
+    }
+    .center-part {
+        padding: 0 20px !important;
+    }
+    .inner-part .inner-blog {
+        width: 30.57% !important;
+    }
+    .left-adv {left:-120px;}
+    .adpos-topbanner1, .adpos-topbanner2, .adpos-middlerbanner {  width: 100%;  border: 0;  text-align: center;}
+}
+
+@media screen and (max-width: 980px) { 
+    .center-part {
+        padding: 0 !important;
+    }
+    .logo {
+        width: 33%;
+    }
+    .header-part .form-group {
+        width: 25%;
+    }
+    .right-login {
+        width: 25%;
+        float: right;
+    }
+    #owl-demo .item {
+        margin: 0 5px 10px 10px;
+    }
+    .customer-part {
+        width: 36%;
+    }
+    .part-second {
+        width: 60%;
+    }
+    .left-adv {left:-120px;}
+}
+
+@media screen and (max-width: 800px) { 
+    .customer-part {
+        width: 40%;
+    }
+    .part-second {
+        width: 58%;
+    }
+    .contact-detail {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 767px) { 
+    .main-body {
+        background: none repeat scroll 0 0 #fff;
+        padding: 0 20px;
+    }
+    .login.hidden-xs {
+        display: block !important;
+    }
+    .menus-part .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+        width: 100%;
+    }
+    .menus-part .navbar-nav > li > a {
+        padding-left: 30px;
+    }
+    .menus-part .navbar-header { padding:0px; }
+    .menus-part .navbar-nav {
+        margin: 0;
+    }
+    .menus-part .btn-group, .menus-part .btn-group-vertical {
+        margin-bottom: 20px;
+    }
+    .inner-blog {
+        text-align: center;
+    }
+    .inner-blog a img {
+        width: auto;
+    }
+    .inner-blog a {
+        margin: 0 auto;
+        text-align: center;
+        width: 40%;
+    }
+    .inner-blog {
+        margin-bottom: 20px;
+        padding: 0;
+        text-align: center;
+    }
+    .footer-part {
+        padding: 0 20px;
+    }
+    .footer-one {
+        border-bottom: 1px solid #fff;
+        margin-bottom: 18px;
+        padding: 0 0 18px 0px;
+    }
+    .footer-one:last-child {
+        border-bottom: 0px;
+        padding:0px;
+        margin-bottom:0px;
+    }
+    ul.social-link {
+        float: none;
+    }
+    .footer-one a img {
+        width: auto;
+    }
+
+    ul.social-link li a i {
+        width: 3%;
+    }
+    .inner-part .inner-blog {
+        width: 100% !important;
+        margin:0px;
+        margin-bottom:20px;
+        margin-top:0px;
+    }
+    .inner-part .inner-blog:last-child {
+        margin-bottom:0px;
+    }
+    .inner-part { padding-bottom:0px; }
+    .inner-blog .list-part li {
+        width: 10%;
+    }
+
+/**************9 april css*************************/
+.register-here .reg-in { width:100%;}
+
+/************14 april css**********************/
+.main-product-search .tab-part-1 .inner-blog {
+    float: left !important;
+    width: 50% !important;
+	margin-bottom:20px !important;
+}
+.main-product-search .tab-part-1 .inner-blog a { width:100%;}
+.main-product-search .tab-part-1 .inner-blog a img { width:100%; height:auto !important;}
+
+}
+
+@media screen and (max-width: 640px) {
+    .logo, .header-part .form-group, .right-login {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .header-part .form-group { margin:15px 0px; }
+    .login {
+        position: inherit;
+    }
+    .right-login {
+        float: none;
+        margin: 0 auto;
+        text-align: left;
+        width: 50%;
+    }
+    .customer-part {
+        width: 100%;
+    }
+    .part-second {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    ul.social-link li a i {
+        width: 5%;
+    }
+    .right-login {
+        width: 90%;
+    }
+    .slider-head h3 {
+        font-size: 15px;
+    }
+    .inner-blog a {
+        width: auto;
+    }
+    .inner-blog a img {
+        width: 100%;
+    }
+/**************9 april css**********************/
+.check-fill { font-size:11px;}
+
+/************14 april css**********************/
+.main-product-search .tab-part-1 .inner-blog {
+    width: 100% !important;
+	padding:0px !important;
+}
+#owl-demo1 .item a img { width:88%;}
+
+}
+
+@media screen and (max-width: 360px) {
+    .inner-blog a { width: 90%; }
+    .bottom-image { margin: 0; }
+    .bid-left a img { height: 180px; }
+    .bid-info { width: 100%; }
+    .bid-list,.current-price { margin-top: 10px!important; }
+    #sync1 { height: 180px; }
+    #sync1 .item img { height: 160px !important; }
+    #sync2 .item img { height: 76px;width: 100%; }
+    .register-here .reg-in { width: 100%; }
+/************14 april css**********************/
+.inner-blog a span.img-top { left:20px;}
+
+}
+
+@media screen and (max-width: 320px) {
+    .right-login { width: 100%; }
+    .bid-left a img { height: 180px;}
+    .bid-info {width: 100%;}
+    .bid-list,.current-price {margin-top: 10px!important;}
+    #sync1 {height: 180px;}
+    #sync1 .item img {height: 160px !important;}
+    #sync2 .item img {height: 76px;width: 100%;}
+    .register-here .reg-in { width: 100%; }
+}
+
+
+/********************* Contact Page Captcha Part 21 Nov 2014 ***********************/
+@media screen and (max-width: 640px) {
+    .leftcap {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .leftcap {
+        width: 100%;
+    }
+    .rightcap {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .type-here .type-code {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .type-here .type-code {
+        width: 88%;
+    }
+/******************9 april css*********************/	
+.slider-head h3 {width:75%;}
+
+}
+
+/******************9 april css*********************/
+@media screen and (max-width: 289px) {
+.login { width:100%;}
+.user {
+font-size:9px;
+padding-right:3px;
+padding-top:27px;
+width:51%;
+}
+.log-in {
+font-size:9px;
+padding-right:3px;
+padding-top:27px;
+width:43%;
+background-position:-47px -85px;
+}
+.check-fill { vertical-align:top;}
+.check-fill > a { display:block; font-size:11px; line-height:20px;}
+.slider-head h3 {width:86%;}
+}
+
+/********************* Contact Page Captcha Part 21 Nov 2014 ***********************/

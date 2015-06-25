@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 Nov, 2014, 8:42:29 PM
+    Author     : cis
+*/
+
+.left-in:after { 
+    right: -9px !important;
+    top: 5px !important;    
+}
+
+a:hover, a:focus {
+    /*    color: #fff;*/
+    text-decoration: none;
+}
+
+.inner-blog:first-child {
+    margin-left: 0px;
+}
+.inner-blog {
+    padding: 0px;
+    margin: 0px 15px;
+    width: 31.25%;
+    padding-bottom: 10px;
+}
+.inner-blog:last-child {
+    margin-right: 0px;
+}
+
+.required span, .errorMessage{
+    color:#ff0000;
+}
+
+.errorMessage {
+    padding-bottom: 8px !important;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #ef3f44 !important;
+    border-color: #ef3f44 !important;
+    color:  #fff !important;
+}
+
+.pagination > li > a, .pagination > li > span, .order:hover{
+    color:  #ef3f44 !important;
+}
+
+.log-in-box, .btn-success {
+    background: none repeat scroll 0 0 rgb(98,196,98)  !important;    
+}
+
+.btn-danger {
+    background: none repeat scroll 0 0 rgb(239,63,68)  !important;
+}
+
+.alert{
+    text-align: center !important;
+}
+
+.list-part li{
+    width: 23.4% !important;
+}
+
+
+.pid_d, .pid_h, .pid_m, .pid_s {
+    font-size: 18px !important;
+}
+
+.timing-part .pid_d, .timing-part .pid_h, .timing-part .pid_m, .timing-part .pid_s {
+    font-size: 30px !important;
+}
+
+a:hover, a:focus {
+    color: #428bca !important;
+}
+
+.nav-tabs{
+    border-bottom: none !important;
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 360px) {
+    .right-toggle{
+        width: 100%;
+    }
+    .left-in{
+        width: 100%;
+    }
+    .left-in:after{
+        background: none;
+    }
+    .right-in{
+        margin-top: 15px;
+        width: 100%;
+    }
+    .right-in a, .right-in button{
+        float: left;
+    }
+}
